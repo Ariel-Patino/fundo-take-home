@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	color-scheme: light;
+}
+
+html {
+	@apply bg-ink-50;
+}
+
+body {
+	min-height: 100vh;
+	margin: 0;
+	@apply bg-ink-50 text-ink-900;
+	font-family: Arial, Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+::selection {
+	@apply bg-brand-200 text-brand-900;
+}

@@ -1,0 +1,48 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fundo.LoanEngine.Domain", "Fundo.LoanEngine.Domain\Fundo.LoanEngine.Domain.csproj", "{4F5B94E0-DF04-4A9E-8101-6C9F45AB1201}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fundo.LoanEngine.Application", "Fundo.LoanEngine.Application\Fundo.LoanEngine.Application.csproj", "{4F5B94E0-DF04-4A9E-8101-6C9F45AB1202}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fundo.LoanEngine.Infrastructure", "Fundo.LoanEngine.Infrastructure\Fundo.LoanEngine.Infrastructure.csproj", "{4F5B94E0-DF04-4A9E-8101-6C9F45AB1203}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fundo.LoanEngine.WebApi", "Fundo.LoanEngine.WebApi\Fundo.LoanEngine.WebApi.csproj", "{4F5B94E0-DF04-4A9E-8101-6C9F45AB1204}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fundo.LoanEngine.Tests", "Fundo.LoanEngine.Tests\Fundo.LoanEngine.Tests.csproj", "{4F5B94E0-DF04-4A9E-8101-6C9F45AB1205}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fundo.LoanEngine.IntegrationTests", "Fundo.LoanEngine.IntegrationTests\Fundo.LoanEngine.IntegrationTests.csproj", "{4F5B94E0-DF04-4A9E-8101-6C9F45AB1206}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F5B94E0-DF04-4A9E-8101-6C9F45AB1201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F5B94E0-DF04-4A9E-8101-6C9F45AB1201}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F5B94E0-DF04-4A9E-8101-6C9F45AB1201}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F5B94E0-DF04-4A9E-8101-6C9F45AB1201}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F5B94E0-DF04-4A9E-8101-6C9F45AB1202}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F5B94E0-DF04-4A9E-8101-6C9F45AB1202}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F5B94E0-DF04-4A9E-8101-6C9F45AB1202}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F5B94E0-DF04-4A9E-8101-6C9F45AB1202}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F5B94E0-DF04-4A9E-8101-6C9F45AB1203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F5B94E0-DF04-4A9E-8101-6C9F45AB1203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F5B94E0-DF04-4A9E-8101-6C9F45AB1203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F5B94E0-DF04-4A9E-8101-6C9F45AB1203}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F5B94E0-DF04-4A9E-8101-6C9F45AB1204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F5B94E0-DF04-4A9E-8101-6C9F45AB1204}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F5B94E0-DF04-4A9E-8101-6C9F45AB1204}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F5B94E0-DF04-4A9E-8101-6C9F45AB1204}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F5B94E0-DF04-4A9E-8101-6C9F45AB1205}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F5B94E0-DF04-4A9E-8101-6C9F45AB1205}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F5B94E0-DF04-4A9E-8101-6C9F45AB1205}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F5B94E0-DF04-4A9E-8101-6C9F45AB1205}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F5B94E0-DF04-4A9E-8101-6C9F45AB1206}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F5B94E0-DF04-4A9E-8101-6C9F45AB1206}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F5B94E0-DF04-4A9E-8101-6C9F45AB1206}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F5B94E0-DF04-4A9E-8101-6C9F45AB1206}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

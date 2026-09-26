@@ -1,0 +1,17 @@
+# .NET
+**/bin/
+**/obj/
+*.user
+*.suo
+
+# Node.js
+**/node_modules/
+**/npm-debug.log*
+**/.next/
+**/out/
+**/coverage/
+
+# Local environment files
+**/.env
+**/.env.*
+!**/.env.example
